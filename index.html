@@ -1,12 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Каршерінг</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Lorem, ipsum dolor.</h1>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="Logo of company" class="logo__link">
+                </a>
+
+                <nav class="menu">
+                    <button class="menu_btn"></button>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__list-link">Про нас</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Автопарк</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Відгуки</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Умови</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <a href="tel:380638211127" class="phone">+38 (063) 821-11-27</a>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="top">
+        <div class="container">
+            <div class="top__heading">
+                <div class="top__content">
+                    <h1 class="top__title">
+                        Carsharing у Львові LUX автомобілі
+                    </h1>
+                    <p class="top__text">
+                        Замов ексклюзивний автомобіль через мобільний додаток в будь-якій точці міста
+                    </p>
+                    <a href="#" class="apt-btn">
+                        Завантажити
+                    </a>
+                </div>
+                <div class="top__slider">
+                    <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div>
+                    <!-- <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="img/auto1.png" alt="Слайдер: Mersedes">
+                        <p class="top__slider-text">
+                            <span>4 грн/хв</span>
+                            <span>5 місць</span>
+                            <span>50 тис. км.</span>
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="top__bottom">
+                <div class="top__items">
+                    <div class="top__item">
+                        <img src="img/icon-1.svg" alt="Значок-авто" class="top__item-img">
+                        <p class="top__item-text">300+<br> автівок до вашої уваги</p>
+                    </div>
+                    <div class="top__item">
+                        <img src="img/icon-2.svg" alt="Значок-оплата" class="top__item-img">
+                        <p class="top__item-text">Дешевше за таксі та власне авто</p>
+                    </div>
+                    <div class="top__item">
+                        <img src="img/icon-3.svg" alt="Значок-карта" class="top__item-img">
+                        <p class="top__item-text">Найкращі авто у будь-якій точці міста</p>
+                    </div>
+                </div>
+                <div class="top__links">
+                    <a href="#" class="top__link">Умови аренди автівки</a>
+                    <a href="#" class="top__link">Публічна угода</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rent">
+        <div class="container">
+            <div class="rent__inner">
+                <div class="rent__content">
+                    <h2 class="rent__content-title">
+                        Умови оренди авто
+                    </h2>
+                    <p class="rent__content-text">
+                        Ми цінуємо кожного клієнта і надаємо якісний сервіс каршерінга у Львові.
+                    </p>
+                    <p class="rent__content-text">
+                        Саме для того, щоб вам було приємно і безпечно користуватись нашим сервісом на постійній
+                        основі, ми виділили кілька умов для того, щоб взяти машину в оренду
+                    </p>
+
+                    <a href="#" class="apt-btn">
+                        Завантажити
+                    </a>
+                </div>
+                <div class="rent__item">
+                    <p class="rent__item-num">01</p>
+                    <p class="rent__item-title">Досвід водіння від 2-х років</p>
+                    <p class="rent__item-text">Для того, щоб орендувати авто, необхідно зареєструвати власне
+                        посвідчення водія у нашому мобільному застосунку</p>
+                </div>
+                <div class="rent__item">
+                    <p class="rent__item-num">02</p>
+                    <p class="rent__item-title">Тільки в межах міста</p>
+                    <p class="rent__item-text">Наші автомобілі працюють тільки в межах міста Львів. За місто на
+                        наших автомобілях, на жаль, виїжджати не можна</p>
+                </div>
+                <div class="rent__item">
+                    <p class="rent__item-num">03</p>
+                    <p class="rent__item-title">Смартфон та інтернет</p>
+                    <p class="rent__item-text">Для використання нашого сервісу Вам необхідний смартфон та
+                        інтернет. Бронювання, оплата відбувається онлайн</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+                <h2 class="reviews__content-title">
+                    Відгуки
+                </h2>
+            <div class="reviews__inner">
+                <div class="reviews__item">
+                    <p class="reviews__item-title">Дмитро</p>
+                    <p class="reviews__item-text">Люблю ганять на машинах, врум врум. Кайфово очінь, особєнно по ночному городу львову.</p>
+                </div>
+                <div class="reviews__item">
+                    <p class="reviews__item-title">Ніколь</p>
+                    <p class="reviews__item-text">Розовінька моя улюблена. Постійно їжджу на ній в Карпати. Зручно і дешево!</p>
+                </div>
+                <div class="reviews__item">
+                    <p class="reviews__item-title">Михайло</p>
+                    <p class="reviews__item-text">Я проаналізував вигоду від використання вашого сервісу, і склав бізнес-план на 10 років. Загалом вигідніше ніж купляти свою.</p>
+                </div>
+                <div class="reviews__item">
+                    <p class="reviews__item-title">Андрій</p>
+                    <p class="reviews__item-text">А в мене є опель, я на ньому катаю, мене просто попросили залишити відгук. 5 зірок, все на вищому рівні</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h3 class="benefits__title">Переваги</h3>
+            <div class="benefits__items">
+                <ul class="benefits__list">
+                    <li class="benefits__list-item">щотижнева мийка</li>
+                    <li class="benefits__list-item">потужний двигун</li>
+                    <li class="benefits__list-item">преміум автівки</li>
+                    <li class="benefits__list-item">підтримка 24/7</li>
+                    <li class="benefits__list-item">пальне враховано</li>
+                    <li class="benefits__list-item">паркування у всіх районах</li>
+                    <li class="benefits__list-item">щомісячне ТО автівок</li>
+                </ul>
+
+                <img src="img/benefits.png" alt="#" class="benefits__images">
+
+                <div class="benefits_content">
+                    <p class="benefits__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        eius animi veniam in, corporis cum alias repellat expedita, molestias deserunt modi distinctio.
+                        Sit quo suscipit aliquid nesciunt blanditiis unde a?</p>
+                    <p class="benefits__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://www.youtube.com/watch?v=tepVIbCxjRU&list=PLWuPdIzAqBUiMnOSoJzwt3OHjVm2edPsm"
+                        class="video-popup" data-fancybox>Переглянути<br> презентацію</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__inner">
+                <img src="img/auto2.png" alt="Автомобіль" class="feedback__images">
+                <div class="form">
+
+                    <form action="" class="feedback__form">
+
+                        <h3 class="feedback__title">
+                            Лишилися питання?
+                        </h3>
+                        <p class="feedback__text">
+                            Ми зателефонуємо і проконсольтуєм
+                        </p>
+                        <input type="text" class="feedback__input" placeholder="Ім'я">
+                        <input type="tel" class="feedback__input" placeholder="Номер телефону">
+
+                        <button class="feedback__btn" type="submit">Замовити дзвінок</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#" class="footer-btn">
+                    Завантажити
+                </a>
+                <nav class="menu">
+                    <button class="menu_btn"></button>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__list-link">Про нас</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Автопарк</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Відгуки</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Умови</a></li>
+                        <li class="menu__item"><a href="#" class="menu__list-link">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <a href="tel:380638211127" class="phone">+38 (063) 821-11-27</a>
+
+            </div>
+            <div class="footer__social">
+                <a href="http://www.facebook.com"><img src="img/facebook.svg" alt="Facebook" class="footer__social-icon"></a>
+                <a href="http://www.youtube.com"><img src="img/youtube.svg" alt="Youtube" class="footer__social-icon"></a>
+                <a href="http://www.intagram.com"><img src="img/instagram.svg" alt="Instagram" class="footer__social-icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
+
 </html>
